@@ -1,3 +1,5 @@
+# Rachael DelNegro (sep8vb)
+
 import streamlit as st
 import requests
 from bs4 import BeautifulSoup
@@ -11,6 +13,7 @@ def load_model_and_scaler():
     scaler = joblib.load('final_scaler.pkl')
     return model, scaler
 
+feature_columns = joblib.load("model_features.pkl")
 # Load Hugging Face pipelines
 @st.cache_resource
 def load_pipelines():
@@ -40,15 +43,20 @@ if headline_input:
         top_emotion_label = top_emotion['label']
         emotion_dict = {e['label'].lower(): e['score'] for e in emotion_scores}
 
-        feature_vector = [
-            emotion_dict.get("anger", 0),
-            emotion_dict.get("disgust", 0),
-            emotion_dict.get("fear", 0),
-            emotion_dict.get("joy", 0),
-            emotion_dict.get("sadness", 0),
-            emotion_dict.get("surprise", 0),
-            sentiment_result["score"] if sentiment_result["label"] == "POSITIVE" else 1 - sentiment_result["score"]
-        ]
+        input_dict = {
+            "anger": emotion_dict.get("anger", 0.0),
+            "disgust": emotion_dict.get("disgust", 0.0),
+            "fear": emotion_dict.get("fear", 0.0),
+            "joy": emotion_dict.get("joy", 0.0),
+            "sadness": emotion_dict.get("sadness", 0.0),
+            "surprise": emotion_dict.get("surprise", 0.0),
+            "neutral": emotion_dict.get("neutral", 0.0),
+            "sentiment_neg": 1 if sentiment_result == "NEGATIVE" else 0,
+            "sentiment_pos": 1 if sentiment_result == "POSITIVE" else 0,
+            "emotion_max": max(emotion_dict.values()),
+        }
+
+        feature_vector = [input_dict.get(col, 0.0) for col in feature_columns]
 
         scaled_vector = scaler.transform([feature_vector])
         predicted_return = model.predict(scaled_vector)[0]
