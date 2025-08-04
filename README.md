@@ -1,7 +1,7 @@
 # emotional-news-stock-impact
 A machine learning model that explores the relationship between news headline emotions and short-term stock market returns.
 
-# (UPDATE IN README.md) Project Title
+# Emotional Arousal in News Headlines as a Predictor of Stock Market Behavior
 
 (UPDATE IN README.md)
 Briefly describe the purpose/result(s) of your project, the skills you applied, and the AI4ALL Ignite program.
@@ -10,7 +10,7 @@ Briefly describe the purpose/result(s) of your project, the skills you applied, 
 *Uncovered and meticulously analyzed three distinct biases present in ChatGPT, employing advanced Python techniques and data analysis methodologies, all within AI4ALL's cutting-edge AI4ALL Ignite accelerator.*
 
 
-## Problem Statement <!--- do not change this line -->
+## Problem Statement
 
 (UPDATE IN README.md)
 Describe the motivation for this project, why it is relevant, and what its impacts are.
@@ -18,7 +18,7 @@ Describe the motivation for this project, why it is relevant, and what its impac
 *EXAMPLE:*
 *Given the substantial daily output of responses, the identification and mitigation of ChatGPT's biases become critical, safeguarding both the multitude of users and the far-reaching consequences they may influence.*
 
-## Key Results <!--- do not change this line -->
+## Key Results 
 
 (UPDATE IN README.md)
 Enumerate the main results of this project in a list and describe them.
@@ -31,7 +31,7 @@ Enumerate the main results of this project in a list and describe them.
    - *When prompted about this political party*
 
 
-## Methodologies <!--- do not change this line -->
+## Methodologies 
 
 (UPDATE IN README.md)
 
@@ -40,7 +40,7 @@ Enumerate the main results of this project in a list and describe them.
 *Engineered a Python script to generate over 1,000 prompts and elicit their responses from ChatGPT, utilizing pandas to collect the data. When prompted for solutions to this specific relevant crisis, nearly 80% of ChatGPT's responses promoted a certain worldview.*
 
 
-## Data Sources <!--- do not change this line -->
+## Data Sources 
 
 (UPDATE IN README.md)
 Include any relevant data sources that were used in your project.
@@ -48,7 +48,7 @@ Include any relevant data sources that were used in your project.
 *EXAMPLE:*
 *Kaggle Datasets: [Link to Kaggle Dataset](https://www.kaggle.com/datasets)*
 
-## Technologies Used <!--- do not change this line -->
+## Technologies Used 
 
 (UPDATE IN README.md)
 List the technologies, libraries, and frameworks used in your project.
@@ -59,12 +59,7 @@ List the technologies, libraries, and frameworks used in your project.
 - *OpenAI API*
 
 
-## Authors <!--- do not change this line -->
+## Author
 
-(UPDATE IN README.md)
-List the names and contact information (e.g., email, GitHub profiles) of the authors or contributors.
-
-*EXAMPLE:*
-*This project was completed in collaboration with:*
-- *John Doe ([john.doe@example.com](mailto:john.doe@example.com))*
-- *Jane Smith ([jane.smith@example.com](mailto:jane.smith@example.com))*
+*This project was completed by Rachael DelNegro
+- *Rachael DelNegro ([sep8vb@virginia.edu](mailto:sep8vb@virginia.edu))*
