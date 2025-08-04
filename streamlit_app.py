@@ -60,11 +60,13 @@ if headline_input:
 
         scaled_vector = scaler.transform([feature_vector])
         predicted_return = model.predict(scaled_vector)[0]
+        
+    st.markdown("### Results")
+    st.write(f"**Emotion:** {top_emotion_label} ({round(top_emotion['score'], 3)})")
+    st.write(f"**Sentiment:** {sentiment_result['label']} ({round(sentiment_result['score'], 3)})")
+    st.write(f"**Predicted 3-Day Return:** `{predicted_return:.4f}`")
+
+    st.caption("Note: Prediction is based on historical emotional and sentiment signals.")
 
 
-st.markdown("### Results")
-st.write(f"**Emotion:** {top_emotion_label} ({round(top_emotion['score'], 3)})")
-st.write(f"**Sentiment:** {sentiment_result['label']} ({round(sentiment_result['score'], 3)})")
-st.write(f"**Predicted 3-Day Return:** `{predicted_return:.4f}`")
 
-st.caption("Note: Prediction is based on historical emotional and sentiment signals.")
