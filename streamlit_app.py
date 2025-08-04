@@ -64,7 +64,8 @@ if headline_input:
     st.markdown("### Results")
     st.write(f"**Emotion:** {top_emotion_label} ({round(top_emotion['score'], 3)})")
     st.write(f"**Sentiment:** {sentiment_result['label']} ({round(sentiment_result['score'], 3)})")
-    st.write(f"**Predicted 3-Day Return:** `{predicted_return:.4f}`")
+    st.markdown(f"Predicted 3-Day Return: <span style='font-size:32px; color:green;'>{predicted_return:.4f}</span>", unsafe_allow_html=True)
+
 
     st.caption("Note: Prediction is based on historical emotional and sentiment signals.")
 
