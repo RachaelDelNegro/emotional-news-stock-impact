@@ -1,22 +1,17 @@
-# emotional-news-stock-impact
-A machine learning model that explores the relationship between news headline emotions and short-term stock market returns.
-
 # Emotional Arousal in News Headlines as a Predictor of Stock Market Behavior
 
-(UPDATE IN README.md)
-Briefly describe the purpose/result(s) of your project, the skills you applied, and the AI4ALL Ignite program.
-
-*EXAMPLE:*
-*Uncovered and meticulously analyzed three distinct biases present in ChatGPT, employing advanced Python techniques and data analysis methodologies, all within AI4ALL's cutting-edge AI4ALL Ignite accelerator.*
+Explored the impact of emotionally charged news headlines on short-term stock market behavior using natural language processing (NLP) and machine learning (ML) techniques. Applied emotion and sentiment classification models (fine-tuned DistilRoBERTa and DistilBERT), conducted feature engineering, and trained a regression model to predict 3-day stock returns. Completed as part of the AI4ALL Ignite accelerator, with a focus on responsible AI and data-driven insight into market psychology.
 
 
 ## Problem Statement
 
-(UPDATE IN README.md)
-Describe the motivation for this project, why it is relevant, and what its impacts are.
+As emotionally charged headlines become increasingly prevalent in modern news media, understanding their influence on investor behavior grows ever more critical. Given that financial decisions are often guided by current events, the emotional tone of news may play a powerful role in shaping market trends.
 
-*EXAMPLE:*
-*Given the substantial daily output of responses, the identification and mitigation of ChatGPT's biases become critical, safeguarding both the multitude of users and the far-reaching consequences they may influence.*
+<img width="700" height="379" alt="image" src="https://github.com/user-attachments/assets/0b213b70-6c73-4fd6-b54b-7cf096c03f94" />
+*Note.* Figure showing the shift in news headlines from positive sentiment to increasingly negative sentiment between 2000 and 2019. From "Longitudinal analysis of sentiment and emotion in news media headlines using automated labelling with Transformer language models," by D. Rozado, R. Hughes, & J. Halberstadt, 2022, *PLOS ONE*, 17(10), e0276367. https://doi.org/10.1371/journal.pone.0276367
+
+<img width="700" height="789" alt="image" src="https://github.com/user-attachments/assets/23ff5410-005b-4291-971d-39c1bf18a759" />
+*Note.* Figure showing the increase in news articles labeled with the emotions anger, disgust, fear, joy, and sadness, and a corresponding decrease in neutral articles from 2000-2019. From "Longitudinal analysis of sentiment and emotion in news media headlines using automated labelling with Transformer language models," by D. Rozado, R. Hughes, & J. Halberstadt, 2022, *PLOS ONE*, 17(10), e0276367. https://doi.org/10.1371/journal.pone.0276367
 
 ## Key Results 
 
