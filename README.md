@@ -5,13 +5,13 @@ Explored the impact of emotionally charged news headlines on short-term stock ma
 
 ## Problem Statement
 
-As emotionally charged headlines become increasingly prevalent in modern news media, understanding their influence on investor behavior grows ever more critical. Given that financial decisions are often guided by current events, the emotional tone of news may play a powerful role in shaping market trends.
+As emotionally charged headlines become increasingly prevalent in modern news media, understanding their influence on investor behavior grows ever more critical. Given that financial decisions are often guided by current events, the emotional tone of news may play a powerful role in shaping market trends.  
 
-<img width="700" height="379" alt="image" src="https://github.com/user-attachments/assets/0b213b70-6c73-4fd6-b54b-7cf096c03f94" />
-*Note.* Figure showing the shift in news headlines from positive sentiment to increasingly negative sentiment between 2000 and 2019. From "Longitudinal analysis of sentiment and emotion in news media headlines using automated labelling with Transformer language models," by D. Rozado, R. Hughes, & J. Halberstadt, 2022, *PLOS ONE*, 17(10), e0276367. https://doi.org/10.1371/journal.pone.0276367
+<img width="700" height="379" alt="image" src="https://github.com/user-attachments/assets/0b213b70-6c73-4fd6-b54b-7cf096c03f94" />  
+*Note.* Figure showing the shift in news headlines from positive sentiment to increasingly negative sentiment between 2000 and 2019. From "Longitudinal analysis of sentiment and emotion in news media headlines using automated labelling with Transformer language models," by D. Rozado, R. Hughes, & J. Halberstadt, 2022, *PLOS ONE*, 17(10), e0276367. https://doi.org/10.1371/journal.pone.0276367  
 
-<img width="700" height="789" alt="image" src="https://github.com/user-attachments/assets/23ff5410-005b-4291-971d-39c1bf18a759" />
-*Note.* Figure showing the increase in news articles labeled with the emotions anger, disgust, fear, joy, and sadness, and a corresponding decrease in neutral articles from 2000-2019. From "Longitudinal analysis of sentiment and emotion in news media headlines using automated labelling with Transformer language models," by D. Rozado, R. Hughes, & J. Halberstadt, 2022, *PLOS ONE*, 17(10), e0276367. https://doi.org/10.1371/journal.pone.0276367
+<img width="700" height="789" alt="image" src="https://github.com/user-attachments/assets/23ff5410-005b-4291-971d-39c1bf18a759" />  
+*Note.* Figure showing the increase in news articles labeled with the emotions anger, disgust, fear, joy, and sadness, and a corresponding decrease in neutral articles from 2000-2019. From "Longitudinal analysis of sentiment and emotion in news media headlines using automated labelling with Transformer language models," by D. Rozado, R. Hughes, & J. Halberstadt, 2022, *PLOS ONE*, 17(10), e0276367. https://doi.org/10.1371/journal.pone.0276367  
 
 ## Key Results 
 
