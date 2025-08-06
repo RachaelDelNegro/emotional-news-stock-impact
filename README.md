@@ -37,6 +37,16 @@ As emotionally charged headlines become increasingly prevalent in modern news me
 **Distribution of Emotions and Sentiments**  
 Visualizes the emotional and sentiment breakdown of all classified headlines.
 
+- Emotion
+   - Mostly neutral headlines
+   - Sadness as most prevalent emotion
+   - Disgust as least prevalent emotion
+   - Disgust as strongest and most unambiguous emotion
+   - Surprise as weakest and most ambiguous emotion
+- Sentiment
+   - More negative than positive headlines
+   - Positive and negative sentiments equal in strength and ambiguity
+
 ---
 
 ### Regression Model
@@ -45,6 +55,11 @@ Visualizes the emotional and sentiment breakdown of all classified headlines.
 
 **Actual vs. Predicted Mean Return by Emotion**  
 Compares the model’s predicted 3-day return to actual returns, averaged by emotion.
+- Disgust with largest change in market
+   - General increase to 3-day return
+- Most emotions increase 3-day return
+- Sadness with least change in market
+
 
 <img width="800" height="600" alt="scatter_actual_vs_predicted" src="https://github.com/user-attachments/assets/14eb3019-cade-4020-aee4-9b3b0dc83b43" />  
 
@@ -55,6 +70,9 @@ Visualizes model fit by plotting predicted vs. actual returns for all days.
 
 **Feature Importances from Random Forest**  
 Ranks the most predictive features used by the Random Forest model.
+- High sentiment and headline count as most important features
+- Disgust and anger as top two most important emotions
+
 
 <img width="800" height="500" alt="abs_error_hist" src="https://github.com/user-attachments/assets/053fd5b5-bc98-4892-aa29-b4c1562dc8f4" />  
 
