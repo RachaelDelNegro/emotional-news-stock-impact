@@ -7,13 +7,13 @@ Explored the impact of emotionally charged news headlines on short-term stock ma
 
 As emotionally charged headlines become increasingly prevalent in modern news media, understanding their influence on investor behavior grows ever more critical. Given that financial decisions are often guided by current events, the emotional tone of news may play a powerful role in shaping market trends.\
 
-<img width="700" height="379" alt="image" src="https://github.com/user-attachments/assets/0b213b70-6c73-4fd6-b54b-7cf096c03f94" />\
+<img width="700" height="379" alt="image" src="https://github.com/user-attachments/assets/0b213b70-6c73-4fd6-b54b-7cf096c03f94" />
 
 > _Note._ Figure showing the shift in news headlines from positive sentiment to increasingly negative sentiment between 2000 and 2019. From "Longitudinal analysis of sentiment and emotion in news media headlines using  automated labelling with Transformer language models," by D. Rozado, R. Hughes, & J. Halberstadt, 2022, _PLOS ONE_, 17(10), e0276367. https://doi.org/10.1371/journal.pone.0276367\
 
-<img width="700" height="789" alt="image" src="https://github.com/user-attachments/assets/23ff5410-005b-4291-971d-39c1bf18a759" />\  
+<img width="700" height="789" alt="image" src="https://github.com/user-attachments/assets/23ff5410-005b-4291-971d-39c1bf18a759" />
 
-> _Note._ Figure showing the increase in news articles labeled with the emotions anger, disgust, fear, joy, and sadness, and a corresponding decrease in neutral articles from 2000-2019. From "Longitudinal analysis of sentiment and emotion in news media headlines using automated labelling with Transformer language models," by D. Rozado, R. Hughes, & J. Halberstadt, 2022, _PLOS ONE_, 17(10), e0276367.https://doi.org/10.1371/journal.pone.0276367\
+> _Note._ Figure showing the increase in news articles labeled with the emotions anger, disgust, fear, joy, and sadness, and a corresponding decrease in neutral articles from 2000-2019. From "Longitudinal analysis of sentiment and emotion in news media headlines using automated labelling with Transformer language models," by D. Rozado, R. Hughes, & J. Halberstadt, 2022, _PLOS ONE_, 17(10), e0276367.https://doi.org/10.1371/journal.pone.0276367
 
 ## Key Results 
 
@@ -27,6 +27,29 @@ Enumerate the main results of this project in a list and describe them.
    - *When prompted about this field of science*
    - *When prompted about this political party*
 
+<img width="1000" height="600" alt="actual_vs_predicted_mean_return_by_emotion" src="https://github.com/user-attachments/assets/0217555d-c331-47d5-b0cd-da02edbd5e06" />
+actual vs predicted mean return by emotion
+
+<img width="800" height="500" alt="abs_error_hist" src="https://github.com/user-attachments/assets/053fd5b5-bc98-4892-aa29-b4c1562dc8f4" />
+Prediction Error Distribution (Histogram)
+This helps you see how far off the predictions are in general.
+
+
+<img width="800" height="600" alt="scatter_actual_vs_predicted" src="https://github.com/user-attachments/assets/14eb3019-cade-4020-aee4-9b3b0dc83b43" />
+Scatter Plot: Actual vs Predicted Returns
+This visualizes how closely the predictions follow the actual values.
+
+<img width="1000" height="600" alt="boxplot_error_by_emotion" src="https://github.com/user-attachments/assets/c4835ca8-c209-47d7-9d71-56f43012852b" />
+Boxplot of Errors by Emotion
+Helps compare the prediction error spread across different emotions.
+
+<img width="800" height="500" alt="headlines_by_emotion" src="https://github.com/user-attachments/assets/00793517-12ce-44eb-8419-7440276bd2ee" />
+Count of Headlines by Emotion
+Helpful for contextualizing your sample size per emotion.
+
+<img width="1000" height="600" alt="feature_importances" src="https://github.com/user-attachments/assets/4829bec4-2b01-4a95-8b16-f28ac290b7d2" />
+Feature Importances from Random Forest
+Tells you which features were most influential in your predictions.
 
 ## Methodologies 
 
