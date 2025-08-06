@@ -25,7 +25,7 @@ emotion_classifier, sentiment_classifier = load_pipelines()
 
 # Load historical predicted returns
 historical_df = pd.read_csv("historical_returns.csv")
-historical_returns = historical_df["predicted_return"]
+historical_returns = historical_df["prediction"]
 historical_mean = historical_returns.mean()
 historical_std = historical_returns.std()
 
