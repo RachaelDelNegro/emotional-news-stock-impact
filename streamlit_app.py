@@ -69,26 +69,6 @@ if headline_input:
     st.write(f"**Sentiment:** {sentiment_result['label']} ({round(sentiment_result['score'], 3)})")
     st.write(f"**Predicted 3-Day Return:** `{predicted_return:.4f}`")
 
-    # Historical Comparison
-    z_score = (predicted_return - historical_mean) / historical_std
-
-    if z_score > 1.5:
-        comparison_text = "This predicted return is **significantly higher** than typical past values."
-    elif z_score > 0.5:
-        comparison_text = "This predicted return is **somewhat higher** than the historical average."
-    elif z_score > -0.5:
-        comparison_text = "This predicted return is **close to the historical average**."
-    elif z_score > -1.5:
-        comparison_text = "This predicted return is **somewhat lower** than the historical average."
-    else:
-        comparison_text = "This predicted return is **significantly lower** than typical past values."
-
-    st.markdown("### Historical Context")
-    st.write(comparison_text)
-    st.caption(
-        f"Historical Mean: `{historical_mean:.4f}` | Std Dev: `{historical_std:.4f}` | Z-Score: `{z_score:.2f}`"
-    )
-
     # Interpretation logic
     if predicted_return > 0.004:
         analysis_text = (
@@ -119,6 +99,26 @@ if headline_input:
 
     st.markdown("### Interpretation")
     st.write(analysis_text)
+
+    # Historical Comparison
+    z_score = (predicted_return - historical_mean) / historical_std
+
+    if z_score > 1.5:
+        comparison_text = "This predicted return is **significantly higher** than typical past values."
+    elif z_score > 0.5:
+        comparison_text = "This predicted return is **somewhat higher** than the historical average."
+    elif z_score > -0.5:
+        comparison_text = "This predicted return is **close to the historical average**."
+    elif z_score > -1.5:
+        comparison_text = "This predicted return is **somewhat lower** than the historical average."
+    else:
+        comparison_text = "This predicted return is **significantly lower** than typical past values."
+
+    st.markdown("### Historical Context")
+    st.write(comparison_text)
+    st.caption(
+        f"Historical Mean: `{historical_mean:.4f}` | Std Dev: `{historical_std:.4f}` | Z-Score: `{z_score:.2f}`"
+    )
 
     st.caption("Note: Prediction is based on historical emotional and sentiment signals. "
                "It does not imply that the content of the headline is inherently positive or negative.")
