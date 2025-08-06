@@ -40,27 +40,33 @@ Visualizes the emotional and sentiment breakdown of all classified headlines.
 
 ### Regression Model
 
-<img width="1000" height="600" alt="actual_vs_predicted_mean_return_by_emotion" src="https://github.com/user-attachments/assets/0217555d-c331-47d5-b0cd-da02edbd5e06" />
+<img width="1000" height="600" alt="actual_vs_predicted_mean_return_by_emotion" src="https://github.com/user-attachments/assets/0217555d-c331-47d5-b0cd-da02edbd5e06" />  
+
 *Actual vs. Predicted Mean Return by Emotion*  
 Compares the model’s predicted 3-day return to actual returns, averaged by emotion.
 
-<img width="800" height="600" alt="scatter_actual_vs_predicted" src="https://github.com/user-attachments/assets/14eb3019-cade-4020-aee4-9b3b0dc83b43" />
+<img width="800" height="600" alt="scatter_actual_vs_predicted" src="https://github.com/user-attachments/assets/14eb3019-cade-4020-aee4-9b3b0dc83b43" />  
+
 *Scatter Plot: Actual vs. Predicted Returns*  
 Visualizes model fit by plotting predicted vs. actual returns for all days.
 
-<img width="1000" height="600" alt="feature_importances" src="https://github.com/user-attachments/assets/4829bec4-2b01-4a95-8b16-f28ac290b7d2" />
+<img width="1000" height="600" alt="feature_importances" src="https://github.com/user-attachments/assets/4829bec4-2b01-4a95-8b16-f28ac290b7d2" />  
+
 *Feature Importances from Random Forest*  
 Ranks the most predictive features used by the Random Forest model.
 
-<img width="800" height="500" alt="abs_error_hist" src="https://github.com/user-attachments/assets/053fd5b5-bc98-4892-aa29-b4c1562dc8f4" />
+<img width="800" height="500" alt="abs_error_hist" src="https://github.com/user-attachments/assets/053fd5b5-bc98-4892-aa29-b4c1562dc8f4" />  
+
 *Prediction Error Distribution (Histogram)*  
 Shows how prediction errors are distributed, helping assess overall accuracy.
 
-<img width="1000" height="600" alt="boxplot_error_by_emotion" src="https://github.com/user-attachments/assets/c4835ca8-c209-47d7-9d71-56f43012852b" />
+<img width="1000" height="600" alt="boxplot_error_by_emotion" src="https://github.com/user-attachments/assets/c4835ca8-c209-47d7-9d71-56f43012852b" />  
+
 *Boxplot of Errors by Emotion*  
 Highlights the spread and variance of prediction errors grouped by emotion.
 
-<img width="800" height="500" alt="headlines_by_emotion" src="https://github.com/user-attachments/assets/00793517-12ce-44eb-8419-7440276bd2ee" />
+<img width="800" height="500" alt="headlines_by_emotion" src="https://github.com/user-attachments/assets/00793517-12ce-44eb-8419-7440276bd2ee" />  
+
 *Count of Headlines by Emotion*  
 Displays the number of headlines per emotion to contextualize sample size.
 
