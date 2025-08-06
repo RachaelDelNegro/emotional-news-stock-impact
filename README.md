@@ -5,11 +5,11 @@ Explored the impact of emotionally charged news headlines on short-term stock ma
 
 ## Problem Statement
 
-As emotionally charged headlines become increasingly prevalent in modern news media, understanding their influence on investor behavior grows ever more critical. Given that financial decisions are often guided by current events, the emotional tone of news may play a powerful role in shaping market trends.\
+As emotionally charged headlines become increasingly prevalent in modern news media, understanding their influence on investor behavior grows ever more critical. Given that financial decisions are often guided by current events, the emotional tone of news may play a powerful role in shaping market trends.
 
 <img width="700" height="379" alt="image" src="https://github.com/user-attachments/assets/0b213b70-6c73-4fd6-b54b-7cf096c03f94" />
 
-> _Note._ Figure showing the shift in news headlines from positive sentiment to increasingly negative sentiment between 2000 and 2019. From "Longitudinal analysis of sentiment and emotion in news media headlines using  automated labelling with Transformer language models," by D. Rozado, R. Hughes, & J. Halberstadt, 2022, _PLOS ONE_, 17(10), e0276367. https://doi.org/10.1371/journal.pone.0276367\
+> _Note._ Figure showing the shift in news headlines from positive sentiment to increasingly negative sentiment between 2000 and 2019. From "Longitudinal analysis of sentiment and emotion in news media headlines using  automated labelling with Transformer language models," by D. Rozado, R. Hughes, & J. Halberstadt, 2022, _PLOS ONE_, 17(10), e0276367. https://doi.org/10.1371/journal.pone.0276367
 
 <img width="700" height="789" alt="image" src="https://github.com/user-attachments/assets/23ff5410-005b-4291-971d-39c1bf18a759" />
 
@@ -18,7 +18,7 @@ As emotionally charged headlines become increasingly prevalent in modern news me
 ## Key Results 
 
 1. Collected over 23 million news headlines from 47 media outlets and classified them by emotion and sentiment using pre-trained transformer models.
-2. Filtered and analyzed a subset of ~40,000 headlines from 4 major news outlets (2015–2019) to align with S&P 500 stock market data.
+2. Filtered and analyzed a subset of headlines from 4 major news outlets (2015–2019) to align with S&P 500 stock market data.
 3. Engineered a feature-rich dataset combining daily emotion/sentiment trends with 3-day stock market returns.
 4. Trained and tuned a Random Forest Regression model using GridSearchCV to predict short-term market movement.
    - Achieved strong generalization performance with R² ≈ `0.74` and low mean absolute error.
@@ -41,27 +41,27 @@ Visualizes the emotional and sentiment breakdown of all classified headlines.
 ### Regression Model
 
 <img width="1000" height="600" alt="actual_vs_predicted_mean_return_by_emotion" src="https://github.com/user-attachments/assets/0217555d-c331-47d5-b0cd-da02edbd5e06" />
-**Actual vs. Predicted Mean Return by Emotion**  
+*Actual vs. Predicted Mean Return by Emotion*  
 Compares the model’s predicted 3-day return to actual returns, averaged by emotion.
 
 <img width="800" height="600" alt="scatter_actual_vs_predicted" src="https://github.com/user-attachments/assets/14eb3019-cade-4020-aee4-9b3b0dc83b43" />
-**Scatter Plot: Actual vs. Predicted Returns**  
+*Scatter Plot: Actual vs. Predicted Returns*  
 Visualizes model fit by plotting predicted vs. actual returns for all days.
 
 <img width="1000" height="600" alt="feature_importances" src="https://github.com/user-attachments/assets/4829bec4-2b01-4a95-8b16-f28ac290b7d2" />
-**Feature Importances from Random Forest**  
+*Feature Importances from Random Forest*  
 Ranks the most predictive features used by the Random Forest model.
 
 <img width="800" height="500" alt="abs_error_hist" src="https://github.com/user-attachments/assets/053fd5b5-bc98-4892-aa29-b4c1562dc8f4" />
-**Prediction Error Distribution (Histogram)**  
+*Prediction Error Distribution (Histogram)*  
 Shows how prediction errors are distributed, helping assess overall accuracy.
 
 <img width="1000" height="600" alt="boxplot_error_by_emotion" src="https://github.com/user-attachments/assets/c4835ca8-c209-47d7-9d71-56f43012852b" />
-**Boxplot of Errors by Emotion**  
+*Boxplot of Errors by Emotion*  
 Highlights the spread and variance of prediction errors grouped by emotion.
 
 <img width="800" height="500" alt="headlines_by_emotion" src="https://github.com/user-attachments/assets/00793517-12ce-44eb-8419-7440276bd2ee" />
-**Count of Headlines by Emotion**  
+*Count of Headlines by Emotion*  
 Displays the number of headlines per emotion to contextualize sample size.
 
 ## Methodologies 
