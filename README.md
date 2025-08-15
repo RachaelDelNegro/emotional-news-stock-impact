@@ -1,6 +1,10 @@
 # Emotional Arousal in News Headlines as a Predictor of Stock Market Behavior
 
-Explored the impact of emotionally charged news headlines on short-term stock market behavior using natural language processing (NLP) and machine learning (ML) techniques. Applied emotion and sentiment classification models (fine-tuned DistilRoBERTa and DistilBERT), conducted feature engineering, and trained a regression model to predict 3-day stock returns. Completed as part of the AI4ALL Ignite accelerator, with a focus on responsible AI and data-driven insight into market psychology.
+Explored the impact of emotionally charged news headlines on short-term stock market behavior using natural language processing (NLP) and machine learning (ML) techniques. Applied emotion and sentiment classification models (fine-tuned DistilRoBERTa and DistilBERT), conducted feature engineering, and trained a regression model to predict 3-day stock returns. Completed as part of the AI4ALL Ignite accelerator, with a focus on responsible AI and data-driven insight into market psychology.  
+
+[Presentation Slideshow](https://docs.google.com/presentation/d/1EIFTZkkx1_3iL8jOiUrmXlZmNAlvhmRxkAW3EMDfKHk/edit?usp=sharing)  
+
+[Project Poster](https://docs.google.com/presentation/d/1FcY-IKVH3pLK5-S2XoScc3PVLjB7zcsvggD2PQUuDUc/edit?slide=id.g1159f1a87bc_0_0#slide=id.g1159f1a87bc_0_0)  
 
 
 ## Problem Statement
