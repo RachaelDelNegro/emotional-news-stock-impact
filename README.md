@@ -4,9 +4,10 @@ Explored the impact of emotionally charged news headlines on short-term stock ma
 
 [Presentation Slideshow](https://docs.google.com/presentation/d/1EIFTZkkx1_3iL8jOiUrmXlZmNAlvhmRxkAW3EMDfKHk/edit?usp=sharing)  
 
-[Project Poster](https://docs.google.com/presentation/d/1FcY-IKVH3pLK5-S2XoScc3PVLjB7zcsvggD2PQUuDUc/edit?slide=id.g1159f1a87bc_0_0#slide=id.g1159f1a87bc_0_0)  
+[Project Poster](https://docs.google.com/presentation/d/1FcY-IKVH3pLK5-S2XoScc3PVLjB7zcsvggD2PQUuDUc/edit?slide=id.g1159f1a87bc_0_0#slide=id.g1159f1a87bc_0_0)    
 
-
+[Google Colab Code Notebook](https://colab.research.google.com/drive/1FRnX5-PrM3pWtOpuXiUTSa5qNNTLaKI1?usp=sharing)  
+ 
 ## Problem Statement
 
 As emotionally charged headlines become increasingly prevalent in modern news media, understanding their influence on investor behavior grows ever more critical. Given that financial decisions are often guided by current events, the emotional tone of news may play a powerful role in shaping market trends.
